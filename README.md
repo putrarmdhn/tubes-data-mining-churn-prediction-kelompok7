@@ -52,6 +52,13 @@ Churn Modelling Dataset
 
 https://customer-churn-kelompok7.streamlit.app
 
+### Features
+- Data Exploration
+- Customer Churn Prediction
+- K-Means Clustering Segmentation
+- Logistic Regression Classification
+- Naive Bayes Comparison
+
 ## Repository
 
 https://github.com/putrarmdhn/tubes-data-mining-churn-prediction-kelompok7
