@@ -2,11 +2,12 @@
 
 ## BBK2LAB3 - Penambangan Data
 
+## Kelas SI4807
+
 ### Kelompok 7
 
-- Putra Ramadhan
-- Nama Anggota 2
-- Nama Anggota 3
+- Putra Ramadhan - 102022580051
+- Fitria Imanda Satriawan - 102022580049
 
 ## Deskripsi Proyek
 
