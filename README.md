@@ -50,8 +50,8 @@ Churn Modelling Dataset
 
 ## Dashboard
 
-Link dashboard akan ditambahkan setelah deployment berhasil.
+https://customer-churn-kelompok7.streamlit.app
 
 ## Repository
 
-Repository ini berisi dataset, source code, notebook, model machine learning, dan dashboard deployment.
+https://github.com/putrarmdhn/tubes-data-mining-churn-prediction-kelompok7
