@@ -62,3 +62,23 @@ https://customer-churn-kelompok7.streamlit.app
 ## Repository
 
 https://github.com/putrarmdhn/tubes-data-mining-churn-prediction-kelompok7
+
+## Revision Note
+
+Berdasarkan masukan dosen, dilakukan revisi pada bagian penanganan data imbalanced. Dataset Customer Churn memiliki distribusi kelas yang tidak seimbang, yaitu 79,63% nasabah tidak churn dan 20,37% nasabah churn.
+
+Perbaikan yang dilakukan:
+
+* Menambahkan eksperimen Logistic Regression sebelum penanganan imbalance.
+* Menambahkan eksperimen Logistic Regression setelah penanganan imbalance menggunakan `class_weight='balanced'`.
+* Membandingkan hasil sebelum dan sesudah penanganan imbalance berdasarkan Accuracy, Precision, Recall, dan F1-Score.
+* Model yang digunakan pada dashboard adalah Logistic Regression setelah penanganan imbalance.
+
+Hasil perbandingan:
+
+| Model                                          | Accuracy | Precision Churn | Recall Churn | F1-Score Churn |
+| ---------------------------------------------- | -------: | --------------: | -----------: | -------------: |
+| Logistic Regression sebelum handling imbalance |    80.6% |             59% |          15% |            24% |
+| Logistic Regression setelah handling imbalance |    70.3% |             38% |          71% |            49% |
+
+Setelah penanganan imbalance menggunakan `class_weight='balanced'`, nilai recall churn meningkat dari 15% menjadi 71%. Hal ini menunjukkan bahwa model lebih mampu mendeteksi nasabah yang berpotensi churn, meskipun accuracy menurun.
