@@ -82,3 +82,8 @@ Hasil perbandingan:
 | Logistic Regression setelah handling imbalance |    70.3% |             38% |          71% |            49% |
 
 Setelah penanganan imbalance menggunakan `class_weight='balanced'`, nilai recall churn meningkat dari 15% menjadi 71%. Hal ini menunjukkan bahwa model lebih mampu mendeteksi nasabah yang berpotensi churn, meskipun accuracy menurun.
+
+## Revision Note:
+- Added imbalanced dataset handling analysis
+- Compared Logistic Regression before and after class_weight='balanced'
+- Recall increased from 15% to 71%
